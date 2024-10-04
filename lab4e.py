@@ -2,9 +2,9 @@
 # Author ID: 120352224
 
 def is_digits(sobj):
-    # Loop through each character in sobj
+    
     for char in sobj:
-        # Check if the character is not a digit
+       
         if not char.isdigit():
             return False
     return True
