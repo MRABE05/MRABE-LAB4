@@ -8,20 +8,19 @@ num1 = 1500
 num2 = 1.50
 
 def first_five(input_string):
-    # Returns the first five characters of the input string
+    
     return input_string[:5]
 
 def last_seven(input_string):
-    # Returns the last seven characters of the input string
+    
     return input_string[-7:]
 
 def middle_number(input_number):
-    # Converts the number to a string and returns the second and third characters
+    
     return str(input_number)[1:3]
 
 def first_three_last_three(arg1, arg2):
-    # Returns a string that starts with the first three characters of arg1
-    # and ends with the last three characters of arg2
+   
     return arg1[:3] + arg2[-3:]
 
 if __name__ == '__main__':
