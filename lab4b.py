@@ -1,15 +1,15 @@
 #!/usr/bin/env python3
 
 def join_lists(l1, l2):
-    # Join two lists and return a list containing every value from both
+    
     return list(set(l1) | set(l2))  # Using set to eliminate duplicates
 
 def match_lists(l1, l2):
-    # Return a list that contains all values found in both lists
+    
     return list(set(l1) & set(l2))  # Intersection of two sets
 
 def diff_lists(l1, l2):
-    # Return a list that contains all different values not shared between the lists
+    
     return list(set(l1) ^ set(l2))  # Symmetric difference
 
 if __name__ == '__main__':
